@@ -60,19 +60,19 @@ copymecopymecopymecopymecopymecopymecopymecopymecopymecopymecopymecopymecopymeco
 
 Next, log into GitHub and go to Settings:
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 Then, click on SSH and GPG keys
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 Now, click on the New SSH key green button:
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 Finally, add the key:
 
-![alt text](image-3.png)
+![alt text](image-4.png)
 
 ## Testing to make sure this works
 
@@ -110,4 +110,22 @@ Set up remote so you dont need to enter password:
 
 ```bash
 git remote set-url origin git@github.com:dilldylanpickle/EE5523-Final-Project.git
+```
+
+Make sure it works here is my example:
+
+```bash
+deepvoicepickle@Windows:/mnt/c/Users/deepv/GitHub/EE5523-Final-Project$ git add README.md 
+deepvoicepickle@Windows:/mnt/c/Users/deepv/GitHub/EE5523-Final-Project$ git commit -m "Added small tutorial to ensure everyone has a working dev environment"
+[init cdeb6ef] Added small tutorial to ensure everyone has a working dev environment
+ 1 file changed, 112 insertions(+), 1 deletion(-)
+deepvoicepickle@Windows:/mnt/c/Users/deepv/GitHub/EE5523-Final-Project$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.30 KiB | 167.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:dilldylanpickle/EE5523-Final-Project.git
+   2ec1fbe..cdeb6ef  init -> init
 ```
