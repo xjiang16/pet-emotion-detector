@@ -60,19 +60,19 @@ copymecopymecopymecopymecopymecopymecopymecopymecopymecopymecopymecopymecopymeco
 
 Next, log into GitHub and go to Settings:
 
-![alt text](image-1.png)
+![alt text](ignoreme/image-1.png)
 
 Then, click on SSH and GPG keys
 
-![alt text](image-2.png)
+![alt text](ignoreme/image-2.png)
 
 Now, click on the New SSH key green button:
 
-![alt text](image-3.png)
+![alt text](ignoreme/image-3.png)
 
 Finally, add the key:
 
-![alt text](image-4.png)
+![alt text](ignoreme/image-4.png)
 
 ## Testing to make sure this works
 
