@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 app = Flask(__name__)
 
 # Model path
-MODEL_PATH = os.path.join(os.getcwd(), "pet-emotion-model.h5")
+MODEL_PATH = os.path.join(os.getcwd(), "model", "pet-emotion-model.h5")
 
 # Class labels
 CLASS_LABELS = ['angry', 'happy', 'relaxed', 'sad']

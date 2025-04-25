@@ -3,7 +3,6 @@ FROM python:3.10-slim
 
 # Set working directory
 WORKDIR /app
-COPY . .
 
 # Install system dependencies (opencv needs these)
 RUN apt-get update && apt-get install -y \
