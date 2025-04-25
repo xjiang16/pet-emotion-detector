@@ -5,7 +5,7 @@ We hosted the model on AWS, you can host it yourself on your local machine!
 ## Clone the Repository
 ```bash
 # Clone the repository
-git https://github.com/dilldylanpickle/Pet-Emotion-Detector.git
+git clone https://github.com/dilldylanpickle/Pet-Emotion-Detector.git
 cd Pet-Emotion-Detector
 ```
 
