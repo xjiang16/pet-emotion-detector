@@ -2,13 +2,16 @@
 
 We hosted the model on AWS, you can host it yourself on your local machine!
 
-### Option 1: Run with Docker (Recommended)
-
+## Clone the Repository
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/pet-emotion-detector
 cd pet-emotion-detector
+```
 
+## Option 1: Run with Docker (Recommended)
+
+```bash
 # Build the image
 docker build -t pet-emotion-app .
 
@@ -19,7 +22,7 @@ docker run -p 5000:5000 pet-emotion-app
 Visit http://localhost:5000 in your browser
 ```
 
-### Option 2: Run with Python
+## Option 2: Run with Python
 
 ```bash
 # Setup an virtual environment
